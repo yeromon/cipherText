@@ -52,7 +52,7 @@ for count in msg:
 
 ct = "0x" + ct
 ct = int(ct, 0)
-ct = str(int(ct // int(sct))) #error here
+ct = str(int(ct // int(sct)))
 n = 4
 ct = [ct[i:i+n] for i in range(0, len(ct), n)]
 
